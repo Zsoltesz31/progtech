@@ -1,0 +1,7 @@
+C:\Users\Zsolti\source\repos\Progtech\Progtech\bin\Debug\Progtech.exe.config
+C:\Users\Zsolti\source\repos\Progtech\Progtech\bin\Debug\Progtech.exe
+C:\Users\Zsolti\source\repos\Progtech\Progtech\bin\Debug\Progtech.pdb
+C:\Users\Zsolti\source\repos\Progtech\Progtech\obj\Debug\Progtech.csprojAssemblyReference.cache
+C:\Users\Zsolti\source\repos\Progtech\Progtech\obj\Debug\Progtech.csproj.CoreCompileInputs.cache
+C:\Users\Zsolti\source\repos\Progtech\Progtech\obj\Debug\Progtech.exe
+C:\Users\Zsolti\source\repos\Progtech\Progtech\obj\Debug\Progtech.pdb

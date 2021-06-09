@@ -1,0 +1,17 @@
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\FruitStorageTest.dll
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\FruitStorageTest.pdb
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Progtech.exe
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Progtech.pdb
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Progtech.exe.config
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\obj\Debug\FruitStorageTest.csprojAssemblyReference.cache
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\obj\Debug\FruitStorageTest.csproj.CoreCompileInputs.cache
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\obj\Debug\FruitStorageTest.csproj.CopyComplete
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\obj\Debug\FruitStorageTest.dll
+C:\Users\Zsolti\source\repos\Progtech\FruitStorageTest\obj\Debug\FruitStorageTest.pdb
