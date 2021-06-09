@@ -2,10 +2,10 @@
 ## Dizájn dokumentum
 
 A beadandó feladatom témája egy gyümölcs feldolgozó raktár egyszerű szimulációja. A raktár alapvető funkciójait valósítottam meg, mint például: gyümölcs vásárlása, gyümölcs leszállítása a raktár részére. Módosíthatjuk a raktárban szereplő gyümölcsök adatait, azaz az árukat és a származási helyüket (szüret helyét). Vásárlás során a raktár kapacitásától függően, leértékelést kap a vásárló. A raktár minél inkább telített annál nagyobb leértékelést kap a vásárló. Ezt arra alapozom, hogy a gyümölcs nem állhat túl sokáig egy adott raktárban, hanem minél hamarabb feldolgozásra kell, hogy kerüljön. Ez alapján a raktárnak meg kell szabadulnia a gyümölcsöktől így, ha az nagyon telített akkor, ha pénzveszteség árán is, de tovább kell, hogy adja a gyümölcsöket. A leértékelés annak függvényében nő minnél több gyümölcs van raktáron. A felhasználó betekintést nyerhet a raktár aktuális állapotára, azaz, milyen gyümölcsből hány kg áll rendelkezésre. 
-Adatmodellek:
-Fruit: cost:int, harvestingplace:string 			A gyümölcsök ősösztálya
-Cherry, Peach, SourCherry 					A Fruit osztály alosztályai
-BergeronPeach, LindaCherry, ErdiSourCherry	A gyümölcsök alfajai (dekorátor tervezési minta)
+# Adatmodellek:
+- Fruit: cost:int, harvestingplace:string 			A gyümölcsök ősösztálya
+- Cherry, Peach, SourCherry 					A Fruit osztály alosztályai
+- BergeronPeach, LindaCherry, ErdiSourCherry	A gyümölcsök alfajai (dekorátor tervezési minta)
  
 A szimulációs feladatokat, azaz a raktár működésést a StorageActions nevű osztályban implementált függvények végzik. A felhasználó álltal adott input alapján lépünk az egyik módba a 4 közül (vásárlás, szállítás, listázás, módosítás). A gyümölcsök példányosítását a FruitFactory osztály végzi (Factory tervezési minta). A projektben egy raktár vesz részt így azt a Singleton tervezési minta segítségével implementáltam. 
  
@@ -26,9 +26,9 @@ A raktárban történő módosítások során, azaz, ha megváltozik egy gyümö
 # Tesztelés:
 A unit tesztelést a VisualStudio beépített Unit Test Project segítségével végeztem. Ahhoz, hogy a teszt metódusokat implementálni tudjam először is a Unit Test Projectet a jelenlegi projekttel egy könyvtárba kell létrehozni és Test project függésegi közé fel kell venni a tesztelni kívánt projektet. Ezután a teszt projektben már elérjük a tesztelni kívánt projektünk névterét és elkezdhetjük a tesztelést.
 A Storage osztály metódusait teszteltem, hiszen a fő metódusuk, amelyek irányítják a raktárat itt helyezkednek el. A tesztek sikerességét az Assert nevű metódus vizsgálja. Az Assert metódus vizsgálhatja például, hogy két objektum megegyezik-e, egy adott objektum null-e, van-e különbség két metódus között stb.
-Storage osztály tesztelt metódusai:
-addFruit(): Sikeres-e a hozzáadás, a gyümölcs lista elemszáma nőtt-e
-deleteFruit(): Sikeres-e a példány törlése, változik-e a gyümölcsök listája törlés után
-getSellableFruits(): Az eladható gyümölcsök kilistázása nem-e null értékkel tér vissza
-getDiscounts(): Változik-e a rendelés ára ha jár leárazás
-getFruitByType(): Annak vizsgálata, hogy a lista tartalmaz-e egy adott gyümölcs típusú példányt 
+# Storage osztály tesztelt metódusai:
+- addFruit(): Sikeres-e a hozzáadás, a gyümölcs lista elemszáma nőtt-e
+- deleteFruit(): Sikeres-e a példány törlése, változik-e a gyümölcsök listája törlés után
+- getSellableFruits(): Az eladható gyümölcsök kilistázása nem-e null értékkel tér vissza
+- getDiscounts(): Változik-e a rendelés ára ha jár leárazás
+- getFruitByType(): Annak vizsgálata, hogy a lista tartalmaz-e egy adott gyümölcs típusú példányt 
